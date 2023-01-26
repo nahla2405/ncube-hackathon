@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1 style="color: #a34765; font-size: 50px;">
+        About page!
+    </h1>
+    <p>
+        Em_art is a place for you to develop your future<br>
+        We connect people "in need" to people "who need".
+        The people who have those abilities such as tutoring, photography, crocheting, painting, etc, will therefore primarily be connected to the clients who want to purchase a specific work or who want the skill work at a reduced price. The price of the product will gradually increase as there are more buyers, but this will also give anyone with a skill that isn't actively sought after a chance to shine by bringing their work to light. Additionally, this will make it simpler for clients who want to buy a skill or a piece of work but don't have a lot of money to support them with the little money they do.As a result, a relationship can be formed through mutual cooperation, in which they can help each other while meeting their own needs
+    </p>
+    <a href="{{ url_for('form') }}">Click here to sign up</a>
+{% endblock %}

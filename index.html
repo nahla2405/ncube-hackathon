@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <h1 style="color: rgb(172, 62, 117); font-size: 60px;">
+        Welcome to Em_art
+    </h1>
+    <h3>Hey Emergers!</h3>
+    <article>
+        <aside>
+            <div class="welcome">
+            <p>Welcome to Em_art<br>We are so excited to have you here. Welcome to your better future<br>We are here to connect you to your new World</p>
+            <a href="{{ url_for('about') }}">Interested, then click here to know more about us</a>
+        </div>
+        </aside>
+    </article>
+{% endblock %}
